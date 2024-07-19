@@ -1,0 +1,81 @@
+﻿// oleh irfan
+
+if starting then {
+   var.select_toggled = false;
+   var.capslock_toggled = false;
+//   var.virtual_sensitivity = 10;
+}
+
+if (pressed(key.capslock)) {
+   if (var.capslock_toggled) then {
+      var.capslock_toggled = false;
+   else{
+      var.capslock_toggled = true;
+   }
+}
+
+// fail safe, pencet tombol 0 dua kali
+if (doubleclicked(key.Zero)) then var.capslock_toggled = false
+
+
+if (pressed(key.F)) {
+   if (var.select_toggled) then {
+         var.select_toggled = false;
+         Mouse.swallow = false;
+   } else {
+        var.select_toggled = true;
+   }
+}
+
+if (var.capslock_toggled == false or var.select_toggled == false) {
+// mengreset semua virtual button
+   if (var.capslock_toggled == false) then mouse.permanentcursor = 21;
+
+   Key.P = false;
+   Key.LeftBracket = false;
+   Key.RightBracket = false;
+   Key.Backslash = false;
+
+   Key.M = false;
+   Key.Comma = false;
+   Key.Dot = false;
+   Key.Slash = false;
+
+   key.seven = false;
+   key.eight = false;
+   key.nine = false;
+}
+if (var.capslock_toggled) {
+
+   Mouse.Swallow = var.select_toggled;
+   // untuk saat mengendarai kendaraan (tank, dll)
+   // kalau di select (f) bakal jalan (virtual) menggunakan M, Comma(Y) dan Slash, Dot (X)
+   // untuk menggerakan (virtual) aimingnya adalah P,LB (Y) dan RB,Backslash (X)
+   if (var.select_toggled) {
+      Key.M = swallow(W);
+      Key.Comma = swallow(key.S);
+      mouse.x = 21;
+      mouse.cursor = 7;
+
+      Key.Slash = swallow(D);
+      Key.Dot = swallow(A);
+
+      key.p = delta(mouse.DirectInputY) < -1;
+      key.leftbracket = delta(mouse.DirectInputY) > 1;
+
+      key.rightbracket = delta(mouse.DirectInputX) < -1;
+      key.backslash = delta(mouse.DirectInputX) > 1;
+
+   } else {
+     mouse.permanentcursor = 20
+   }
+
+   key.seven = mouse.LeftButton;
+   key.eight = mouse.MiddleButton;
+   key.nine = mouse.rightbutton;
+
+   // untuk debug
+   var.mousex = delta(mouse.DirectInputX );
+   var.mousey = delta(mouse.DirectInputY);
+
+}

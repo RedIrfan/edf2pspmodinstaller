@@ -1,0 +1,73 @@
+(0, 19-Jul-2024 07:11:59) Initializing PieLog
+(0, 19-Jul-2024 07:11:59) Initializing filemode variable
+(0, 19-Jul-2024 07:11:59) Initializing PieSpeech
+(0, 19-Jul-2024 07:11:59) Initializing PieVariables
+(0, 19-Jul-2024 07:11:59) Initializing PieCursorUnit
+(0, 19-Jul-2024 07:11:59) Initializing PieMouse
+(0, 19-Jul-2024 07:11:59) Initializing PieKeyboard
+(0, 19-Jul-2024 07:11:59) Initializing PieInput
+(0, 19-Jul-2024 07:11:59) Initializing PieOSC
+(0, 19-Jul-2024 07:11:59) Initializing PiePie
+(0, 19-Jul-2024 07:11:59) Initializing PieFunction
+(0, 19-Jul-2024 07:11:59) Initializing PieStatement
+(0, 19-Jul-2024 07:11:59) Initializing PieExpression
+(0, 19-Jul-2024 07:11:59) Initializing PieJoystick
+(0, 19-Jul-2024 07:11:59) Initializing PieP5
+(0, 19-Jul-2024 07:11:59) Initializing PieMidi
+(0, 19-Jul-2024 07:11:59) Initializing PiePPJoy
+(0, 19-Jul-2024 07:11:59) Initializing PieRemote
+(0, 19-Jul-2024 07:11:59) Initializing Pie Speech Recognition
+(0, 19-Jul-2024 07:11:59) Initializing PieScreen
+(0, 19-Jul-2024 07:11:59) GetMonitorEDID
+(0, 19-Jul-2024 07:11:59) Initializing PieWIndow
+(0, 19-Jul-2024 07:11:59) Initializing PieCursors
+(0, 19-Jul-2024 07:11:59) Initializing PieZ800
+(0, 19-Jul-2024 07:11:59) Initializing PieIntersense
+(0, 19-Jul-2024 07:11:59) Initializing PieFastrak
+(0, 19-Jul-2024 07:11:59) Initializing PiePPT
+(0, 19-Jul-2024 07:11:59) Initializing PieTrackIR
+(0, 19-Jul-2024 07:11:59) Initializing PiePinch
+(0, 19-Jul-2024 07:11:59) Initializing PieBird
+(0, 19-Jul-2024 07:11:59) Initializing PieFiveDT
+(0, 19-Jul-2024 07:11:59) Starting main
+(0, 19-Jul-2024 07:11:59) Application object initialized
+(0, 19-Jul-2024 07:11:59) Creating main window
+(0, 19-Jul-2024 07:11:59) EditorForm.Create
+(0, 19-Jul-2024 07:11:59) Checking command line parameters:
+(0, 19-Jul-2024 07:11:59)   EDF2PSP.PIE
+(0, 19-Jul-2024 07:11:59) ClearMidiGui
+(0, 19-Jul-2024 07:11:59) Creating debug window
+(0, 19-Jul-2024 07:11:59) Assigning exception handler
+(0, 19-Jul-2024 07:11:59) Creating debug remote control window
+(0, 19-Jul-2024 07:11:59) Running application
+(0, 19-Jul-2024 07:12:03) FormCloseQuery
+(0, 19-Jul-2024 07:12:03) Compile>Stop
+(0, 19-Jul-2024 07:12:03) Application finished
+(0, 19-Jul-2024 07:12:03) Destroying EditorForm
+(0, 19-Jul-2024 07:12:03) Finalizing PieFiveDT
+(0, 19-Jul-2024 07:12:03) Finalizing PieBird
+(0, 19-Jul-2024 07:12:03) Finalizing PiePinch
+(0, 19-Jul-2024 07:12:03) Finalizing PieTrackIR
+(0, 19-Jul-2024 07:12:03) Finalizing PiePPT
+(0, 19-Jul-2024 07:12:03) Finalizing PieFastrak
+(0, 19-Jul-2024 07:12:03) Finalizing PieIntersense
+(0, 19-Jul-2024 07:12:03) Finalizing PieZ800
+(0, 19-Jul-2024 07:12:03) Finalizing PieCursors
+(0, 19-Jul-2024 07:12:03) Finalizing PieWindow
+(0, 19-Jul-2024 07:12:03) Finalizing PieScreen
+(0, 19-Jul-2024 07:12:03) Finalizing Pie Speech Recognition
+(0, 19-Jul-2024 07:12:03) Finalizing PieRemote
+(0, 19-Jul-2024 07:12:03) Finalizing PiePPJoy
+(0, 19-Jul-2024 07:12:03) Finalizing PieMidi
+(0, 19-Jul-2024 07:12:03) Finalizing PieP5
+(0, 19-Jul-2024 07:12:03) Finalizing PieJoystick
+(0, 19-Jul-2024 07:12:03) Finalizing PieStatement
+(0, 19-Jul-2024 07:12:03) Finalizing PieFunction
+(0, 19-Jul-2024 07:12:03) Finalizing PiePie
+(0, 19-Jul-2024 07:12:03) Finalizing PieOSC
+(0, 19-Jul-2024 07:12:03) Finalizing PieKeyboard
+(0, 19-Jul-2024 07:12:03) Finalizing PieMouse
+(0, 19-Jul-2024 07:12:03) Finalizing PieVariables
+(0, 19-Jul-2024 07:12:03) Finalizing PieSpeech
+(0, 19-Jul-2024 07:12:03) Finalizing PieLog
+(0, 19-Jul-2024 07:12:03) Closing log file
